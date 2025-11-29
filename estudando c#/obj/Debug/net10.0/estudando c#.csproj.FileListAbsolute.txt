@@ -1,0 +1,15 @@
+C:\Mayk\estudando c#\bin\Debug\net10.0\estudando c#.exe
+C:\Mayk\estudando c#\bin\Debug\net10.0\estudando c#.deps.json
+C:\Mayk\estudando c#\bin\Debug\net10.0\estudando c#.runtimeconfig.json
+C:\Mayk\estudando c#\bin\Debug\net10.0\estudando c#.dll
+C:\Mayk\estudando c#\bin\Debug\net10.0\estudando c#.pdb
+C:\Mayk\estudando c#\obj\Debug\net10.0\estudando c#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Mayk\estudando c#\obj\Debug\net10.0\estudando c#.AssemblyInfoInputs.cache
+C:\Mayk\estudando c#\obj\Debug\net10.0\estudando c#.AssemblyInfo.cs
+C:\Mayk\estudando c#\obj\Debug\net10.0\estudando c#.csproj.CoreCompileInputs.cache
+C:\Mayk\estudando c#\obj\Debug\net10.0\estudando c#.sourcelink.json
+C:\Mayk\estudando c#\obj\Debug\net10.0\estudando c#.dll
+C:\Mayk\estudando c#\obj\Debug\net10.0\refint\estudando c#.dll
+C:\Mayk\estudando c#\obj\Debug\net10.0\estudando c#.pdb
+C:\Mayk\estudando c#\obj\Debug\net10.0\estudando c#.genruntimeconfig.cache
+C:\Mayk\estudando c#\obj\Debug\net10.0\ref\estudando c#.dll
