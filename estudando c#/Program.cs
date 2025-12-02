@@ -346,84 +346,265 @@
 //     Console.WriteLine(somaTotal);
 // }
 
-using System.Collections;
+// using System.Collections;
 
-double precoOriginal = 0;
-string categoria;
-bool clienteVip;
-string cupom;
-int itensNoCarrinho = 0;
-double PrecoFinal = 0;
+// double precoOriginal = 0;
+// string categoria;
+// bool clienteVip;
+// string cupom;
+// int itensNoCarrinho = 0;
+// double PrecoFinal = 0;
+
+// bool loop = true;
+// while (loop)
+// {
+
+//     Console.WriteLine(@"Categorias!
+
+//     1 Eletronico 5%
+//     2 Livro 10% 
+//     3 Vestuario 15%
+//     4 Alimneto 0%
+//     5 Encerrar!
+//     ");
+
+
+
+//     Console.WriteLine("Qual a categoria do produto?");
+//     categoria = Console.ReadLine();
+
+//     if (categoria == "5" )
+//     {
+//         if (PrecoFinal == 0)
+//             {
+//                 break;
+//             }
+//         break;
+
+//     }
+//         Console.Write("Digite o Valor do produto!");
+//         precoOriginal = double.Parse(Console.ReadLine());
+
+//     switch (categoria)
+//     {
+
+//         case "1":
+//         double porcentagemEletronico = 5;
+//         double descontoEletronico = (precoOriginal * porcentagemEletronico) / 100;
+//         PrecoFinal = precoOriginal - descontoEletronico;
+//         itensNoCarrinho += 1;
+//         break;
+
+//         case "2":
+//         double porcentagemLivro = 10;
+//         double descontoDeLivros = (precoOriginal * porcentagemLivro) / 100;
+//         itensNoCarrinho += 1;
+//         PrecoFinal += descontoDeLivros;
+//         break;
+
+//         case "3":
+//         double porcentagemVestuario = 15;
+//         double descontoVestuario = (precoOriginal * porcentagemVestuario) / 100;
+//         itensNoCarrinho += 1;
+//         PrecoFinal += descontoVestuario;
+//         break;
+
+//         case "4":
+//         double porcentagemAlimento = 0;
+//         double descontoAlimento = (precoOriginal * porcentagemAlimento) / 100;
+//         itensNoCarrinho += 1;
+//         PrecoFinal += descontoAlimento;
+//         break;
+
+//     }
+
+// }
+
+
+// Console.WriteLine($"Carrinho {itensNoCarrinho}");
+// Console.WriteLine($"Total = {PrecoFinal}");
+
+
+//---------------------------------------------------
+
+// Exercicio 
+
+using System.Net.Http.Headers;
+using System.Runtime.InteropServices;
 
 bool loop = true;
 while (loop)
 {
 
-    Console.WriteLine(@"Categorias!
+    Console.WriteLine(@"Escolha uma opção!
 
-    1 Eletronico 5%
-    2 Livro 10% 
-    3 Vestuario 15%
-    4 Alimneto 0%
-    5 Encerrar!
+    1 - Calculadora!
+    2 - Verificar se um número é par ou impar!
+    3 - Contagem Regressiva!
+    4 - Médioa de notas!
+    5 - Procurar um valor da lista!
+    6 - sair!
     ");
+    Console.Write("Digite sua opção: ");
+    string opcao = Console.ReadLine();
 
-
-
-    Console.WriteLine("Qual a categoria do produto?");
-    categoria = Console.ReadLine();
-
-    if (categoria == "5" )
+    switch (opcao)
     {
-        if (PrecoFinal == 0)
+        case "1":
+        Console.WriteLine("Escolha uma formula calcular.");
+        Console.WriteLine(@"
+        1 - Soma.
+        2 - subtração.
+        3 - Multiplicação.
+        4 - Divisão.
+        5 - Sair!
+        ");
+
+        string opcaoCalculo = Console.ReadLine();
+
+        switch (opcaoCalculo)
             {
+                case "1":
+                Console.Write("Digite o primeiro número!");
+                int primeiroNumeroDaSoma = int.Parse(Console.ReadLine());
+
+                Console.Write("Digite o segundo número!");
+                int segundoroNumeroDaSoma = int.Parse(Console.ReadLine());
+
+                int soma = primeiroNumeroDaSoma + segundoroNumeroDaSoma;
+
+                Console.WriteLine($"Soma = {soma}");
+                break;
+
+
+                case "2":
+                Console.Write("Digite o primeiro número!");
+                int primeiroNumeroDaSubtracao = int.Parse(Console.ReadLine());
+
+                Console.Write("Digite o segundo número!");
+                int segundoroNumeroDaSubtracao = int.Parse(Console.ReadLine());
+
+                int subtracao = primeiroNumeroDaSubtracao - segundoroNumeroDaSubtracao;
+
+                Console.WriteLine($"Subtração = {subtracao}");
+                break;
+
+
+                case "3":
+                Console.Write("Digite o primeiro número!");
+                int primeiroNumeroDaMultipicacao = int.Parse(Console.ReadLine());
+
+                Console.Write("Digite o segundo número!");
+                int segundoroNumeroDaMultiplicacao = int.Parse(Console.ReadLine());
+
+                int multiplicacao = primeiroNumeroDaMultipicacao * segundoroNumeroDaMultiplicacao;
+
+                Console.WriteLine($"Multiplicação = {multiplicacao}");
+                break;
+
+
+                case "4":
+                Console.Write("Digite o primeiro número!");
+                int primeiroNumeroDaDivisao = int.Parse(Console.ReadLine());
+
+                Console.Write("Digite o segundo número!");
+                int segundoroNumeroDaDivisao = int.Parse(Console.ReadLine());
+
+                int divisao = primeiroNumeroDaDivisao / segundoroNumeroDaDivisao;
+
+                Console.WriteLine($"Divisão = {divisao}");
+                break;
+
+
+                case "5":
                 break;
             }
         break;
-                
-    }
-        Console.Write("Digite o Valor do produto!");
-        precoOriginal = double.Parse(Console.ReadLine());
-   
-    switch (categoria)
-    {
-        
-        case "1":
-        double porcentagemEletronico = 5;
-        double descontoEletronico = (precoOriginal * porcentagemEletronico) / 100;
-        PrecoFinal = precoOriginal - descontoEletronico;
-        itensNoCarrinho += 1;
-        break;
 
         case "2":
-        double porcentagemLivro = 10;
-        double descontoDeLivros = (precoOriginal * porcentagemLivro) / 100;
-        itensNoCarrinho += 1;
-        PrecoFinal += descontoDeLivros;
+        Console.WriteLine("Verifique se um numero é impar ou par.");
+        Console.Write("Digite seu numero: ");
+        int numeroImparOuPar = int.Parse(Console.ReadLine());
+
+        if (numeroImparOuPar % 2 == 0)
+            {
+                Console.WriteLine($"Seu numero {numeroImparOuPar} é par!");
+            }
+        else
+            {
+                Console.WriteLine($"Seu numero {numeroImparOuPar} é impar!");
+            }
         break;
 
         case "3":
-        double porcentagemVestuario = 15;
-        double descontoVestuario = (precoOriginal * porcentagemVestuario) / 100;
-        itensNoCarrinho += 1;
-        PrecoFinal += descontoVestuario;
+        Console.WriteLine("Digite um numero para iniciar  cponmtagem regreciva!");
+        Console.Write("Digite o numero que iniciarar a contagem: ");
+        int contagem = int.Parse(Console.ReadLine());
+
+        for (int i = contagem; i >= 0; i --)
+            {
+                Console.WriteLine(i);
+                Thread.Sleep(1000);
+            }
         break;
+
 
         case "4":
-        double porcentagemAlimento = 0;
-        double descontoAlimento = (precoOriginal * porcentagemAlimento) / 100;
-        itensNoCarrinho += 1;
-        PrecoFinal += descontoAlimento;
+        Console.WriteLine("vamos Calcular a media do aluno.\n");
+        Console.Write("Digite a primeira nota: ");
+        double primeiraNota = double.Parse(Console.ReadLine());
+        Console.Write("Digite a segunda nota: ");
+        double segundasNota = double.Parse(Console.ReadLine());
+        Console.Write("Digite a terceira nota: ");
+        double terceiraNota = double.Parse(Console.ReadLine());
+        Console.WriteLine("");
+
+
+        double somaDasNotas = primeiraNota + segundasNota + terceiraNota;
+        double media = somaDasNotas / 3;
+
+        if (media >= 7.0)
+            {
+                Console.WriteLine($"Media {media:f1} Aprovado!\n");
+            }
+        else if (media > 6.0)
+            {
+                Console.WriteLine($"Media {media:f1} Recuperação!\n");
+            }
+        else
+            {
+                Console.WriteLine($"Media {media:f1} Reprovado!\n");
+            }
         break;
-            
+
+
+        case "5":
+
+        int[] valores = { 5, 8, 12, 3, 9 };
+        Console.Write("Verifique se um valor esta na lista: ");
+        int valorDigitado = int.Parse(Console.ReadLine()); 
+
+        for (int i = 0; i < valores.Length; i ++)
+            {
+                if (valores[i] == valorDigitado)     
+                {          
+                    Console.WriteLine($"Valor {valorDigitado} esta na lista.\n");
+                    break;
+                }
+               
+                else
+                {               
+                    Console.WriteLine($"{valorDigitado} não esta na lista.\n");
+                    break;
+                }
+                
+            }
+            break;
+
+        
+        case "6":
+        Console.WriteLine("Saindo!");
+        loop = false;
+        break;
     }
-
 }
-
-
-Console.WriteLine($"Carrinho {itensNoCarrinho}");
-Console.WriteLine($"Total = {PrecoFinal}");
-
-
-//---------------------------------------------------
-
