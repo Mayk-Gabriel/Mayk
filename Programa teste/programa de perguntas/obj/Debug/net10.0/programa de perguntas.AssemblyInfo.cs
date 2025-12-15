@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("programa de perguntas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd1cf1a523d7d4296aa9cd22b56c1fb0384cb9ef")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d68d9950dd366c5e54d54190015859f0b50da83a")]
 [assembly: System.Reflection.AssemblyProductAttribute("programa de perguntas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("programa de perguntas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
