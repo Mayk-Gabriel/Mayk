@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pragrama de perguntas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2b313b5f78e89de4dfd3bca09e2c0b871be3d2b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8d9b92c047bbbd3898040fd2eeadd4cb867a8541")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pragrama de perguntas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pragrama de perguntas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
