@@ -1,0 +1,15 @@
+C:\Mayk\Programa teste\programa de perguntas\bin\Debug\net10.0\programa de perguntas.exe
+C:\Mayk\Programa teste\programa de perguntas\bin\Debug\net10.0\programa de perguntas.deps.json
+C:\Mayk\Programa teste\programa de perguntas\bin\Debug\net10.0\programa de perguntas.runtimeconfig.json
+C:\Mayk\Programa teste\programa de perguntas\bin\Debug\net10.0\programa de perguntas.dll
+C:\Mayk\Programa teste\programa de perguntas\bin\Debug\net10.0\programa de perguntas.pdb
+C:\Mayk\Programa teste\programa de perguntas\obj\Debug\net10.0\programa de perguntas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Mayk\Programa teste\programa de perguntas\obj\Debug\net10.0\programa de perguntas.AssemblyInfoInputs.cache
+C:\Mayk\Programa teste\programa de perguntas\obj\Debug\net10.0\programa de perguntas.AssemblyInfo.cs
+C:\Mayk\Programa teste\programa de perguntas\obj\Debug\net10.0\programa de perguntas.csproj.CoreCompileInputs.cache
+C:\Mayk\Programa teste\programa de perguntas\obj\Debug\net10.0\programa de perguntas.sourcelink.json
+C:\Mayk\Programa teste\programa de perguntas\obj\Debug\net10.0\programa de perguntas.dll
+C:\Mayk\Programa teste\programa de perguntas\obj\Debug\net10.0\refint\programa de perguntas.dll
+C:\Mayk\Programa teste\programa de perguntas\obj\Debug\net10.0\programa de perguntas.pdb
+C:\Mayk\Programa teste\programa de perguntas\obj\Debug\net10.0\programa de perguntas.genruntimeconfig.cache
+C:\Mayk\Programa teste\programa de perguntas\obj\Debug\net10.0\ref\programa de perguntas.dll
