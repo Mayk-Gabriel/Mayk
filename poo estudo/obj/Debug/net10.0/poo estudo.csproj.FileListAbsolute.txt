@@ -1,0 +1,15 @@
+C:\Mayk\poo estudo\bin\Debug\net10.0\poo estudo.exe
+C:\Mayk\poo estudo\bin\Debug\net10.0\poo estudo.deps.json
+C:\Mayk\poo estudo\bin\Debug\net10.0\poo estudo.runtimeconfig.json
+C:\Mayk\poo estudo\bin\Debug\net10.0\poo estudo.dll
+C:\Mayk\poo estudo\bin\Debug\net10.0\poo estudo.pdb
+C:\Mayk\poo estudo\obj\Debug\net10.0\poo estudo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Mayk\poo estudo\obj\Debug\net10.0\poo estudo.AssemblyInfoInputs.cache
+C:\Mayk\poo estudo\obj\Debug\net10.0\poo estudo.AssemblyInfo.cs
+C:\Mayk\poo estudo\obj\Debug\net10.0\poo estudo.csproj.CoreCompileInputs.cache
+C:\Mayk\poo estudo\obj\Debug\net10.0\poo estudo.sourcelink.json
+C:\Mayk\poo estudo\obj\Debug\net10.0\poo estudo.dll
+C:\Mayk\poo estudo\obj\Debug\net10.0\refint\poo estudo.dll
+C:\Mayk\poo estudo\obj\Debug\net10.0\poo estudo.pdb
+C:\Mayk\poo estudo\obj\Debug\net10.0\poo estudo.genruntimeconfig.cache
+C:\Mayk\poo estudo\obj\Debug\net10.0\ref\poo estudo.dll
