@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 ﻿// using System;
 // using System.Globalization;
 // using System.Security.Cryptography.X509Certificates;
+=======
+﻿// // using System;
+// // using System.Globalization;
+// // using System.Security.Cryptography.X509Certificates;
+>>>>>>> 13e0fd0fa593629f8143e0e275e886ff8e36a13b
 
 // namespace Atividade {
 //     class pessoa {
@@ -45,6 +51,7 @@
 
 // //----------------------
 
+<<<<<<< HEAD
 // using System.ComponentModel;
 // using System.Diagnostics.CodeAnalysis;
 // using System.Reflection.Metadata.Ecma335;
@@ -186,6 +193,21 @@ class Funcionario
     {
         get {return _Nome; }
         set {_Nome = value; }
+=======
+using System.Data;
+using System.Diagnostics;
+using System.Linq.Expressions;
+using System.Reflection.Emit;
+using System.Runtime.InteropServices.Marshalling;
+using Aluno;
+
+namespace Aluno
+{
+    class Mayk{
+    public String NomeCompleto;
+    public int Idade;
+    public String Proficao;
+>>>>>>> 13e0fd0fa593629f8143e0e275e886ff8e36a13b
     }
 
     public decimal Salario
@@ -196,6 +218,7 @@ class Funcionario
 
 }
 
+<<<<<<< HEAD
 class Program
 {
     static void Main(string[] arge){
@@ -221,4 +244,25 @@ class Program
 
     }
     
+=======
+namespace Funcao
+{
+    using Aluno;
+    class code{
+    static void Main(string[] args)
+        {
+        
+        Mayk m1 = new Mayk();
+
+        Console.WriteLine("Vamos Começar");
+        Console.Write("Digite o nome Completo:");
+        m1.NomeCompleto = Console.ReadLine();
+        Console.Write("Digite a Idade");
+        m1.Idade = int.Parse(Console.ReadLine());
+
+        Console.WriteLine($"Você Digitol {m1.NomeCompleto} e {m1.Idade}");
+        }
+
+    }
+>>>>>>> 13e0fd0fa593629f8143e0e275e886ff8e36a13b
 }
