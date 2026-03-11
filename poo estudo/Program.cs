@@ -1,12 +1,6 @@
-<<<<<<< HEAD
 ﻿// using System;
 // using System.Globalization;
 // using System.Security.Cryptography.X509Certificates;
-=======
-﻿// // using System;
-// // using System.Globalization;
-// // using System.Security.Cryptography.X509Certificates;
->>>>>>> 13e0fd0fa593629f8143e0e275e886ff8e36a13b
 
 // namespace Atividade {
 //     class pessoa {
@@ -51,7 +45,6 @@
 
 // //----------------------
 
-<<<<<<< HEAD
 // using System.ComponentModel;
 // using System.Diagnostics.CodeAnalysis;
 // using System.Reflection.Metadata.Ecma335;
@@ -181,88 +174,51 @@
 
 // ----------------------------
 
-using System.Runtime.InteropServices;
-using System.Windows.Markup;
+// using System.Runtime.InteropServices;
+// using System.Windows.Markup;
 
-class Funcionario
-{
-    private string _Nome;
-    private decimal _Salario;
+// class Funcionario
+// {
+//     private string _Nome;
+//     private decimal _Salario;
 
-    public string Nome
-    {
-        get {return _Nome; }
-        set {_Nome = value; }
-=======
-using System.Data;
-using System.Diagnostics;
-using System.Linq.Expressions;
-using System.Reflection.Emit;
-using System.Runtime.InteropServices.Marshalling;
-using Aluno;
+//     public string Nome
+//     {
+//         get {return _Nome; }
+//         set {_Nome = value; }
+//     }
 
-namespace Aluno
-{
-    class Mayk{
-    public String NomeCompleto;
-    public int Idade;
-    public String Proficao;
->>>>>>> 13e0fd0fa593629f8143e0e275e886ff8e36a13b
-    }
+//     public decimal Salario
+//     {
+//         get {return _Salario; }
+//         set {_Salario = value; }
+//     }
 
-    public decimal Salario
-    {
-        get {return _Salario; }
-        set {_Salario = value; }
-    }
+// }
 
-}
+// class Program
+// {
+//     static void Main(string[] arge){
 
-<<<<<<< HEAD
-class Program
-{
-    static void Main(string[] arge){
+//         Funcionario funcionario1 = new Funcionario();
+//         Funcionario funcionario2 = new Funcionario();
 
-        Funcionario funcionario1 = new Funcionario();
-        Funcionario funcionario2 = new Funcionario();
+//         Console.WriteLine("Digite as informções do primeiro funcionario.");
+//         Console.Write("Nome: ");
+//         funcionario1.Nome = Console.ReadLine();
+//         Console.Write("Salario: ");
+//         funcionario1.Salario = decimal.Parse(Console.ReadLine());
 
-        Console.WriteLine("Digite as informções do primeiro funcionario.");
-        Console.Write("Nome: ");
-        funcionario1.Nome = Console.ReadLine();
-        Console.Write("Salario: ");
-        funcionario1.Salario = decimal.Parse(Console.ReadLine());
+//         Console.WriteLine("Digite as Informações do segundo funcionario.");
+//         Console.Write("Nome: ");
+//         funcionario2.Nome = Console.ReadLine();
+//         Console.Write("Salario: ");
+//         funcionario2.Salario = decimal.Parse(Console.ReadLine());
 
-        Console.WriteLine("Digite as Informações do segundo funcionario.");
-        Console.Write("Nome: ");
-        funcionario2.Nome = Console.ReadLine();
-        Console.Write("Salario: ");
-        funcionario2.Salario = decimal.Parse(Console.ReadLine());
+//         decimal mediaDeSalario = (funcionario1.Salario + funcionario2.Salario) / 2;
 
-        decimal mediaDeSalario = (funcionario1.Salario + funcionario2.Salario) / 2;
+//         Console.WriteLine($"A Media de salario dos funcionarios é {mediaDeSalario}");
 
-        Console.WriteLine($"A Media de salario dos funcionarios é {mediaDeSalario}");
+//     }
 
-    }
-    
-=======
-namespace Funcao
-{
-    using Aluno;
-    class code{
-    static void Main(string[] args)
-        {
-        
-        Mayk m1 = new Mayk();
-
-        Console.WriteLine("Vamos Começar");
-        Console.Write("Digite o nome Completo:");
-        m1.NomeCompleto = Console.ReadLine();
-        Console.Write("Digite a Idade");
-        m1.Idade = int.Parse(Console.ReadLine());
-
-        Console.WriteLine($"Você Digitol {m1.NomeCompleto} e {m1.Idade}");
-        }
-
-    }
->>>>>>> 13e0fd0fa593629f8143e0e275e886ff8e36a13b
-}
+// }
