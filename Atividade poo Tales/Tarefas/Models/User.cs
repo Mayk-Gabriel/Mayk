@@ -1,13 +1,15 @@
 namespace ex.Models
 {
-    class nick
+    class User
     {
-        public nick(string nome, string email)
+        public User(string nome, string email)
         {
             Nome = nome;
             Email = email;
+
         }
         public string Nome {get; set;}
         public string Email {get; set;}
+
     }
 }
