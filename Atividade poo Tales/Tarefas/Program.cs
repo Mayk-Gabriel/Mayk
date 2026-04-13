@@ -61,6 +61,26 @@
 
     // ----
 
-    int quantidade = oi.Count(u => u.Email.Contains("gmail"));
+    // int quantidade = oi.Count(u => u.Email.Contains("gmail"));
 
-    Console.WriteLine(quantidade);
+    // Console.WriteLine(quantidade);
+
+    // ------------
+
+
+    List<Aluno> alunos = new List<Aluno>
+    {
+        new Aluno { Nome = "Mike", Notas = new List<double>{7,8,9}},
+        new Aluno { Nome = "Gabs", Notas = new List<double>{7,10,9}},
+        new Aluno { Nome = "Luiz", Notas = new List<double>{8,8,9}}
+    };
+
+
+
+    foreach (var aluno in alunos)
+{
+    double media = aluno.Notas.Average();
+    Console.WriteLine($"{aluno.Nome} {media:f1}");
+}
+
+
