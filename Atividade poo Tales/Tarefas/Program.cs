@@ -10,6 +10,13 @@
 
     List <User> oi = [user1, user2, user3, user4, user5, user6];
 
+    var Nome = oi.RemoveAll( u => u.Nome == "Luiz");
+
+    foreach (var user in oi)
+    {
+        Console.WriteLine(user.Nome);
+    }
+
     // var gmail = oi.Where(u => u.Email.Contains("gmail"));
     // Console.WriteLine("Usuários com gmail:");
     // foreach (var user in gmail)
@@ -68,19 +75,20 @@
     // ------------
 
 
-    List<Aluno> alunos = new List<Aluno>
-    {
-        new Aluno { Nome = "Mike", Notas = new List<double>{7,8,9}},
-        new Aluno { Nome = "Gabs", Notas = new List<double>{7,10,9}},
-        new Aluno { Nome = "Luiz", Notas = new List<double>{8,8,9}}
-    };
+    // List<Aluno> alunos = new List<Aluno>
+    // {
+    //     new Aluno { Nome = "Mike", Notas = new List<double>{7,8,9}},
+    //     new Aluno { Nome = "Gabs", Notas = new List<double>{7,10,9}},
+    //     new Aluno { Nome = "Luiz", Notas = new List<double>{8,8,9}}
+    // };
 
+    // Aluno.DeletarAluno(alunos, "Mike");
+    
 
+    // foreach (var aluno in alunos)
+    // {
+    //     double media = aluno.Notas.Average();
+    //     Console.WriteLine($"{aluno.Nome} {media:f1}");
+    // }
 
-    foreach (var aluno in alunos)
-{
-    double media = aluno.Notas.Average();
-    Console.WriteLine($"{aluno.Nome} {media:f1}");
-}
-
-
+    
