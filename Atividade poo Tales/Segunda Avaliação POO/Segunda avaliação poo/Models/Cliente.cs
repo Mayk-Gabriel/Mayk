@@ -9,15 +9,21 @@ class Cliente
 
     public string Nome { get; private set
         {
-            if (Nome == null)
+            if (value == null)
                 throw new ArgumentException ("Informe um nome!");
 
-            value = field;
+            field = value;
         }
     }
 
-    public void ReservarMesa()
+    public void ReservarMesa(List<Mesa> mesas, int numeroMesa, int quantidadePessoas)
     {
+        var mesa = mesas.FirstOrDefault(m => m.Numero == numeroMesa);
+        
+        if (mesa == null)
+            throw new Exception("Mesa não encontrada!");
+
+        mesa.Reserva(this, quantidadePessoas);
         
     }
 
