@@ -27,6 +27,7 @@ class Mesa
 
     public Status StatusMesa {get; set;}
 
+    public Cliente ClienteReserva { get; set; }
 
     public override string ToString()
     {

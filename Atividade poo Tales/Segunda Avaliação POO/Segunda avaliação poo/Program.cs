@@ -12,3 +12,8 @@ foreach (var Mesa in mesas)
 {
     Console.WriteLine(Mesa);
 }
+
+Cliente cliente = new Cliente("Mayk");
+
+
+cliente.ReservarMesa(mesas, 4);
