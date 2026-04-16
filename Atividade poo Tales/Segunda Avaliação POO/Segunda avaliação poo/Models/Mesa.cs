@@ -27,11 +27,33 @@ class Mesa
 
     public Status StatusMesa {get; set;}
 
-    public Cliente ClienteReserva { get; set; }
+    public Cliente ClienteReserva { get; set;}
+
+    public void Reserva(Cliente cliente, int quantidadePessoas)
+    {
+        if (quantidadePessoas > Capacidade)
+            throw new Exception ("Capacidade ultrapassada!");
+
+        ClienteReserva = cliente;
+        StatusMesa = Status.Reservada;
+        Console.WriteLine($"Mesa reservada {cliente.Nome}");
+    }
+
+    public void LiberarMesa(int numero)
+    {
+        if (numero != Numero)
+            throw new Exception ("Mesa não encontrada");
+
+        if (StatusMesa == Status.Disponivel)
+            throw new Exception ("Mesa ja disponivel!");
+
+        StatusMesa = Status.Disponivel;
+    }
 
     public override string ToString()
     {
-        return $"Mesa numero: {Numero}, Capacidade: {Capacidade}, Status: {StatusMesa}";
+        string Nome = ClienteReserva?.Nome;
+        return $"Mesa numero: {Numero}, Capacidade: {Capacidade}\nStatus: {StatusMesa} {Nome}";
     }
 
 }

@@ -9,13 +9,18 @@ class Cliente
 
     public string Nome { get; private set
         {
+<<<<<<< HEAD
             if (string.IsNullOrWhiteSpace(value))
+=======
+            if (value == null)
+>>>>>>> 175e904a3a9b4691043342824297191b246ef810
                 throw new ArgumentException ("Informe um nome!");
 
-            value = field;
+            field = value;
         }
     }
 
+<<<<<<< HEAD
     public void ReservarMesa(List<Mesa> mesas, int numeroMesa)
     {
         var mesa = mesas.FirstOrDefault(m => m.Numero == numeroMesa);
@@ -36,6 +41,17 @@ class Cliente
     mesa.ClienteReserva = this;
 
     Console.WriteLine($"Mesa {numeroMesa} reservada por {Nome}");
+=======
+    public void ReservarMesa(List<Mesa> mesas, int numeroMesa, int quantidadePessoas)
+    {
+        var mesa = mesas.FirstOrDefault(m => m.Numero == numeroMesa);
+        
+        if (mesa == null)
+            throw new Exception("Mesa não encontrada!");
+
+        mesa.Reserva(this, quantidadePessoas);
+        
+>>>>>>> 175e904a3a9b4691043342824297191b246ef810
     }
 
 }
