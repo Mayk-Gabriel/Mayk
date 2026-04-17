@@ -17,11 +17,3 @@ foreach (var Mesa in mesas)
 {
     Console.WriteLine(Mesa);
 }
-<<<<<<< HEAD
-
-Cliente cliente = new Cliente("Mayk");
-
-
-cliente.ReservarMesa(mesas, 4);
-=======
->>>>>>> 175e904a3a9b4691043342824297191b246ef810
