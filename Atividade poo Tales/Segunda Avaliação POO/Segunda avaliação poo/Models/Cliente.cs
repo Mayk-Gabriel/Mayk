@@ -9,7 +9,7 @@ class Cliente
 
     public string Nome { get; private set
         {
-            if (value == value)
+            if (value == null)
                 throw new ArgumentException ("Informe um nome!");
 
             field = value;

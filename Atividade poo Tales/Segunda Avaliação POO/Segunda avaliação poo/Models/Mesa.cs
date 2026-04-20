@@ -36,7 +36,7 @@ class Mesa
 
         ClienteReserva = cliente;
         StatusMesa = Status.Reservada;
-        Console.WriteLine($"Mesa reservada {cliente.Nome}");
+        Console.WriteLine($"Mesa reservada {cliente.Nome} \n");
     }
 
     public void LiberarMesa(int numero)
@@ -50,10 +50,18 @@ class Mesa
         StatusMesa = Status.Disponivel;
     }
 
+
     public override string ToString()
     {
+        Console.WriteLine("=== Mesas ===");
+        
         string Nome = ClienteReserva?.Nome;
-        return $"Mesa numero: {Numero}, Capacidade: {Capacidade}\nStatus: {StatusMesa} {Nome}";
+
+        if (Nome == null)
+            return $"Mesa numero: {Numero}, Capacidade: {Capacidade}\nStatus: {StatusMesa} \n";
+
+        
+        return $"Mesa numero: {Numero}, Capacidade: {Capacidade}\nStatus: {StatusMesa} por: {Nome} \n";
     }
 
 }
