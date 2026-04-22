@@ -429,182 +429,198 @@
 
 // Exercicio 
 
-using System.Net.Http.Headers;
+// using System.Net.Http.Headers;
+// using System.Runtime.InteropServices;
+
+// bool loop = true;
+// while (loop)
+// {
+
+//     Console.WriteLine(@"Escolha uma opção!
+
+//     1 - Calculadora!
+//     2 - Verificar se um número é par ou impar!
+//     3 - Contagem Regressiva!
+//     4 - Médioa de notas!
+//     5 - Procurar um valor da lista!
+//     6 - sair!
+//     ");
+//     Console.Write("Digite sua opção: ");
+//     string opcao = Console.ReadLine();
+
+//     switch (opcao)
+//     {
+//         case "1":
+//         Console.WriteLine("Escolha uma formula calcular.");
+//         Console.WriteLine(@"
+//         1 - Soma.
+//         2 - subtração.
+//         3 - Multiplicação.
+//         4 - Divisão.
+//         5 - Sair!
+//         ");
+
+//         string opcaoCalculo = Console.ReadLine();
+
+//         switch (opcaoCalculo)
+//             {
+//                 case "1":
+//                 Console.Write("Digite o primeiro número!");
+//                 int primeiroNumeroDaSoma = int.Parse(Console.ReadLine());
+
+//                 Console.Write("Digite o segundo número!");
+//                 int segundoroNumeroDaSoma = int.Parse(Console.ReadLine());
+
+//                 int soma = primeiroNumeroDaSoma + segundoroNumeroDaSoma;
+
+//                 Console.WriteLine($"Soma = {soma}");
+//                 break;
+
+
+//                 case "2":
+//                 Console.Write("Digite o primeiro número!");
+//                 int primeiroNumeroDaSubtracao = int.Parse(Console.ReadLine());
+
+//                 Console.Write("Digite o segundo número!");
+//                 int segundoroNumeroDaSubtracao = int.Parse(Console.ReadLine());
+
+//                 int subtracao = primeiroNumeroDaSubtracao - segundoroNumeroDaSubtracao;
+
+//                 Console.WriteLine($"Subtração = {subtracao}");
+//                 break;
+
+
+//                 case "3":
+//                 Console.Write("Digite o primeiro número!");
+//                 int primeiroNumeroDaMultipicacao = int.Parse(Console.ReadLine());
+
+//                 Console.Write("Digite o segundo número!");
+//                 int segundoroNumeroDaMultiplicacao = int.Parse(Console.ReadLine());
+
+//                 int multiplicacao = primeiroNumeroDaMultipicacao * segundoroNumeroDaMultiplicacao;
+
+//                 Console.WriteLine($"Multiplicação = {multiplicacao}");
+//                 break;
+
+
+//                 case "4":
+//                 Console.Write("Digite o primeiro número!");
+//                 int primeiroNumeroDaDivisao = int.Parse(Console.ReadLine());
+
+//                 Console.Write("Digite o segundo número!");
+//                 int segundoroNumeroDaDivisao = int.Parse(Console.ReadLine());
+
+//                 int divisao = primeiroNumeroDaDivisao / segundoroNumeroDaDivisao;
+
+//                 Console.WriteLine($"Divisão = {divisao}");
+//                 break;
+
+
+//                 case "5":
+//                 break;
+//             }
+//         break;
+
+//         case "2":
+//         Console.WriteLine("Verifique se um numero é impar ou par.");
+//         Console.Write("Digite seu numero: ");
+//         int numeroImparOuPar = int.Parse(Console.ReadLine());
+
+//         if (numeroImparOuPar % 2 == 0)
+//             {
+//                 Console.WriteLine($"Seu numero {numeroImparOuPar} é par!");
+//             }
+//         else
+//             {
+//                 Console.WriteLine($"Seu numero {numeroImparOuPar} é impar!");
+//             }
+//         break;
+
+//         case "3":
+//         Console.WriteLine("Digite um numero para iniciar  cponmtagem regreciva!");
+//         Console.Write("Digite o numero que iniciarar a contagem: ");
+//         int contagem = int.Parse(Console.ReadLine());
+
+//         for (int i = contagem; i >= 0; i --)
+//             {
+//                 Console.WriteLine(i);
+//                 Thread.Sleep(1000);
+//             }
+//         break;
+
+
+//         case "4":
+//         Console.WriteLine("vamos Calcular a media do aluno.\n");
+//         Console.Write("Digite a primeira nota: ");
+//         double primeiraNota = double.Parse(Console.ReadLine());
+//         Console.Write("Digite a segunda nota: ");
+//         double segundasNota = double.Parse(Console.ReadLine());
+//         Console.Write("Digite a terceira nota: ");
+//         double terceiraNota = double.Parse(Console.ReadLine());
+//         Console.WriteLine("");
+
+
+//         double somaDasNotas = primeiraNota + segundasNota + terceiraNota;
+//         double media = somaDasNotas / 3;
+
+//         if (media >= 7.0)
+//             {
+//                 Console.WriteLine($"Media {media:f1} Aprovado!\n");
+//             }
+//         else if (media > 6.0)
+//             {
+//                 Console.WriteLine($"Media {media:f1} Recuperação!\n");
+//             }
+//         else
+//             {
+//                 Console.WriteLine($"Media {media:f1} Reprovado!\n");
+//             }
+//         break;
+
+
+//         case "5":
+
+//         int[] valores = { 5, 8, 12, 3, 9 };
+//         Console.Write("Verifique se um valor esta na lista: ");
+//         int valorDigitado = int.Parse(Console.ReadLine()); 
+
+//         for (int i = 0; i < valores.Length; i ++)
+//             {
+//                 if (valores[i] == valorDigitado)     
+//                 {          
+//                     Console.WriteLine($"Valor {valorDigitado} esta na lista.\n");
+//                     break;
+//                 }
+
+//                 else
+//                 {               
+//                     Console.WriteLine($"{valorDigitado} não esta na lista.\n");
+//                     break;
+//                 }
+
+//             }
+//             break;
+
+
+//         case "6":
+//         Console.WriteLine("Saindo!");
+//         loop = false;
+//         break;
+//     }
+// }
+
 using System.Runtime.InteropServices;
 
-bool loop = true;
-while (loop)
-{
+Console.WriteLine("Hello World!");
 
-    Console.WriteLine(@"Escolha uma opção!
+int numero1 = 0;
+int numero2 = 0;
 
-    1 - Calculadora!
-    2 - Verificar se um número é par ou impar!
-    3 - Contagem Regressiva!
-    4 - Médioa de notas!
-    5 - Procurar um valor da lista!
-    6 - sair!
-    ");
-    Console.Write("Digite sua opção: ");
-    string opcao = Console.ReadLine();
+Console.Write("Digite o primeiro número:");
+numero1 = int.Parse(Console.ReadLine());
+Console.Write("Digite o segundo número:");
+numero2 = int.Parse(Console.ReadeLine());
 
-    switch (opcao)
-    {
-        case "1":
-        Console.WriteLine("Escolha uma formula calcular.");
-        Console.WriteLine(@"
-        1 - Soma.
-        2 - subtração.
-        3 - Multiplicação.
-        4 - Divisão.
-        5 - Sair!
-        ");
+int soma = numero1 + numero2;
 
-        string opcaoCalculo = Console.ReadLine();
-
-        switch (opcaoCalculo)
-            {
-                case "1":
-                Console.Write("Digite o primeiro número!");
-                int primeiroNumeroDaSoma = int.Parse(Console.ReadLine());
-
-                Console.Write("Digite o segundo número!");
-                int segundoroNumeroDaSoma = int.Parse(Console.ReadLine());
-
-                int soma = primeiroNumeroDaSoma + segundoroNumeroDaSoma;
-
-                Console.WriteLine($"Soma = {soma}");
-                break;
-
-
-                case "2":
-                Console.Write("Digite o primeiro número!");
-                int primeiroNumeroDaSubtracao = int.Parse(Console.ReadLine());
-
-                Console.Write("Digite o segundo número!");
-                int segundoroNumeroDaSubtracao = int.Parse(Console.ReadLine());
-
-                int subtracao = primeiroNumeroDaSubtracao - segundoroNumeroDaSubtracao;
-
-                Console.WriteLine($"Subtração = {subtracao}");
-                break;
-
-
-                case "3":
-                Console.Write("Digite o primeiro número!");
-                int primeiroNumeroDaMultipicacao = int.Parse(Console.ReadLine());
-
-                Console.Write("Digite o segundo número!");
-                int segundoroNumeroDaMultiplicacao = int.Parse(Console.ReadLine());
-
-                int multiplicacao = primeiroNumeroDaMultipicacao * segundoroNumeroDaMultiplicacao;
-
-                Console.WriteLine($"Multiplicação = {multiplicacao}");
-                break;
-
-
-                case "4":
-                Console.Write("Digite o primeiro número!");
-                int primeiroNumeroDaDivisao = int.Parse(Console.ReadLine());
-
-                Console.Write("Digite o segundo número!");
-                int segundoroNumeroDaDivisao = int.Parse(Console.ReadLine());
-
-                int divisao = primeiroNumeroDaDivisao / segundoroNumeroDaDivisao;
-
-                Console.WriteLine($"Divisão = {divisao}");
-                break;
-
-
-                case "5":
-                break;
-            }
-        break;
-
-        case "2":
-        Console.WriteLine("Verifique se um numero é impar ou par.");
-        Console.Write("Digite seu numero: ");
-        int numeroImparOuPar = int.Parse(Console.ReadLine());
-
-        if (numeroImparOuPar % 2 == 0)
-            {
-                Console.WriteLine($"Seu numero {numeroImparOuPar} é par!");
-            }
-        else
-            {
-                Console.WriteLine($"Seu numero {numeroImparOuPar} é impar!");
-            }
-        break;
-
-        case "3":
-        Console.WriteLine("Digite um numero para iniciar  cponmtagem regreciva!");
-        Console.Write("Digite o numero que iniciarar a contagem: ");
-        int contagem = int.Parse(Console.ReadLine());
-
-        for (int i = contagem; i >= 0; i --)
-            {
-                Console.WriteLine(i);
-                Thread.Sleep(1000);
-            }
-        break;
-
-
-        case "4":
-        Console.WriteLine("vamos Calcular a media do aluno.\n");
-        Console.Write("Digite a primeira nota: ");
-        double primeiraNota = double.Parse(Console.ReadLine());
-        Console.Write("Digite a segunda nota: ");
-        double segundasNota = double.Parse(Console.ReadLine());
-        Console.Write("Digite a terceira nota: ");
-        double terceiraNota = double.Parse(Console.ReadLine());
-        Console.WriteLine("");
-
-
-        double somaDasNotas = primeiraNota + segundasNota + terceiraNota;
-        double media = somaDasNotas / 3;
-
-        if (media >= 7.0)
-            {
-                Console.WriteLine($"Media {media:f1} Aprovado!\n");
-            }
-        else if (media > 6.0)
-            {
-                Console.WriteLine($"Media {media:f1} Recuperação!\n");
-            }
-        else
-            {
-                Console.WriteLine($"Media {media:f1} Reprovado!\n");
-            }
-        break;
-
-
-        case "5":
-
-        int[] valores = { 5, 8, 12, 3, 9 };
-        Console.Write("Verifique se um valor esta na lista: ");
-        int valorDigitado = int.Parse(Console.ReadLine()); 
-
-        for (int i = 0; i < valores.Length; i ++)
-            {
-                if (valores[i] == valorDigitado)     
-                {          
-                    Console.WriteLine($"Valor {valorDigitado} esta na lista.\n");
-                    break;
-                }
-               
-                else
-                {               
-                    Console.WriteLine($"{valorDigitado} não esta na lista.\n");
-                    break;
-                }
-                
-            }
-            break;
-
-        
-        case "6":
-        Console.WriteLine("Saindo!");
-        loop = false;
-        break;
-    }
-}
+Console.WriteLine($"Soma dos números é {soma}");
