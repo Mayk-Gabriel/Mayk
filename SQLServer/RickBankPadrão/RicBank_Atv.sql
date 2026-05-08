@@ -1,4 +1,5 @@
 -- Item 0
+
 DROP TABLE #Contas
 
 -- Item 1
@@ -38,7 +39,8 @@ DELETE #Contas
 -- Item 5
 
 INSERT INTO #Contas (Id, IdCliente, IdAgencia, Numero, Tipo, Saldo, Situacao, DataAbertura, SaldoMediaAgencia)
-	SELECT	Id, 
+	SELECT	
+			Id, 
 			IdCliente, 
 			IdAgencia, 
 			Numero, 
@@ -67,7 +69,7 @@ WHERE Id = (SELECT MIN(Id)
 
 -- Item 8 
 
-SELECT C.Saldo
+SELECT	C.Saldo
 	FROM #Contas C
 ORDER BY C.Saldo ASC
 
@@ -78,3 +80,30 @@ SELECT	*
 WHERE Saldo > SaldoMediaAgencia
 ORDER BY Saldo DESC
 
+-- Item 10 
+
+SELECT *,
+		CASE 
+			WHEN Saldo % 2 = 0 THEN 'Par'
+			ELSE 'Impar'
+		END AS TipoSaldo
+	FROM #Contas
+
+-- Item 11 
+
+UPDATE #Contas 
+	SET Saldo += 1.000
+WHERE Saldo = (
+				SELECT MIN(Saldo)
+				FROM #Contas
+				)
+
+-- 12 
+
+SELECT *
+	FROM #Contas C
+ORDER BY C.Saldo ASC
+
+-- 13 
+
+DROP TABLE #Contas

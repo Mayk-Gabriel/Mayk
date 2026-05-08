@@ -371,7 +371,7 @@ SELECT  F.Nome,
 	WHERE Ts.Nome = 'Banho e Tosa'
 ORDER BY F.Nome
 
-/*54. Liste as vendas de produto feitas em determinado mês.*/
+-- 54. Liste as vendas de produto feitas em determinado mês.
 
 SELECT 
 		P.Nome,
@@ -384,11 +384,104 @@ SELECT
 	WHERE V.DataHora = '2022-01-14 00:00:00.000'
 		
 
-/*55. Liste os clientes que compraram determinado produto.*/
+-- 55. Liste os clientes que compraram determinado produto.
+
+SELECT	cl.Nome,
+		p.Nome
+	FROM VendaProduto AS vp
+		JOIN Produto as p
+			ON p.Id = vp.IdProduto
+		JOIN Venda as v
+			ON v.Id = vp.IdVenda
+		JOIN Cliente as cl
+			ON cl.Id = v.IdCliente
+WHERE p.Nome = 'Racao Super Premium Filhote 10kg Var.102'
+
+-- 56. Liste os animais que possuem alergias cadastradas.
+
+SELECT	a.Nome, 
+		al.Descricao
+	FROM AnimalAlergia AS al
+		JOIN Animal as a
+			ON a.Id = al.IdAnimal
+
+-- 57. Liste os animais que não possuem alergias cadastradas.
+
+SELECT	a.Nome, 
+		al.Descricao
+	FROM AnimalAlergia AS al
+		JOIN Animal as a
+			ON a.Id = al.IdAnimal
+	WHERE al.Descricao = NULL
+
+-- 58. Liste os produtos que nunca foram vendidos.
+
+SELECT	p.Nome,
+		v.StatusVenda
+	FROM VendaProduto AS vp
+		JOIN Venda as v
+			ON v.Id = vp.IdVenda
+		JOIN Produto as p
+			ON p.Id = vp.IdProduto
+	WHERE v.StatusVenda != 'Paga'
+ 
+ -- 60. Liste os clientes que nunca fizeram uma venda.
+
+
+		
+-- 61. Mostre a quantidade de animais por cliente.
+
+SELECT	cl.Nome,
+		COUNT(*) AS Animias 
+	FROM Animal AS a
+		JOIN Cliente as cl
+			ON cl.Id = a.IdCliente
+GROUP BY cl.Nome
+
+
+-- 62. Mostre a quantidade de animais por espécie.
+
+SELECT	r.Nome,
+		COUNT(*) 
+	FROM Animal AS a
+		JOIN Raca as r
+			ON r.Id = a.IdRaca
+		JOIN Especie as e
+			ON e.Id = r.IdEspecie
+GROUP BY r.Nome
+
+
+-- 63. Mostre a quantidade de animais por raça.
+
+SELECT e.Nome,
+		COUNT(*)
+	FROM Animal AS a
+		JOIN Raca as r
+			ON r.Id = a.IdRaca
+		JOIN Especie as e
+			ON e.Id = r.IdEspecie
+GROUP BY e.Nome
+
+-- 64. Mostre a quantidade de produtos por categoria.
+
+SELECT cp.Nome,
+		COUNT(*) as Quantidade 
+	FROM Produto AS p
+		JOIN CategoriaProduto as cp
+			ON cp.Id = p.IdCategoriaProduto
+GROUP BY cp.Nome
+
+-- 65. Mostre o total vendido por venda.
+
+SELECT COUNT(v.ValorTotal) AS TotalVenda
+	FROM Venda AS v
+
+-- 66. Mostre o total gasto por cada cliente.
 
 
 
-/*56. Liste os animais que possuem alergias cadastradas.*/
+-- 67. Mostre a quantidade de vendas por cliente.
+
 
 
 
