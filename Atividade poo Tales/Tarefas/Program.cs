@@ -17,6 +17,8 @@
         Console.WriteLine(user.Nome);
     }
 
+    
+
     // var gmail = oi.Where(u => u.Email.Contains("gmail"));
     // Console.WriteLine("Usuários com gmail:");
     // foreach (var user in gmail)
