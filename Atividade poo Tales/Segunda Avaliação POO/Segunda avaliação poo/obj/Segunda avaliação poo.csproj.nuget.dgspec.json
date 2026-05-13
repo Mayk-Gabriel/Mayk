@@ -10,11 +10,11 @@
         "projectUniqueName": "C:\\Mayk\\Atividade poo Tales\\Segunda Avaliação POO\\Segunda avaliação poo\\Segunda avaliação poo.csproj",
         "projectName": "Segunda avaliação poo",
         "projectPath": "C:\\Mayk\\Atividade poo Tales\\Segunda Avaliação POO\\Segunda avaliação poo\\Segunda avaliação poo.csproj",
-        "packagesPath": "C:\\Users\\Anna H\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\mayk3\\.nuget\\packages\\",
         "outputPath": "C:\\Mayk\\Atividade poo Tales\\Segunda Avaliação POO\\Segunda avaliação poo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Anna H\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\mayk3\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -38,7 +38,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net10.0": {
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
