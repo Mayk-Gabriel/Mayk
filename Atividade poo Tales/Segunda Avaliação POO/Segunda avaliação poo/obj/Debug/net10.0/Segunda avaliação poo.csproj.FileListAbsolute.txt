@@ -1,0 +1,15 @@
+C:\Mayk\Atividade poo Tales\Segunda Avaliação POO\Segunda avaliação poo\bin\Debug\net10.0\Segunda avaliação poo.exe
+C:\Mayk\Atividade poo Tales\Segunda Avaliação POO\Segunda avaliação poo\bin\Debug\net10.0\Segunda avaliação poo.deps.json
+C:\Mayk\Atividade poo Tales\Segunda Avaliação POO\Segunda avaliação poo\bin\Debug\net10.0\Segunda avaliação poo.runtimeconfig.json
+C:\Mayk\Atividade poo Tales\Segunda Avaliação POO\Segunda avaliação poo\bin\Debug\net10.0\Segunda avaliação poo.dll
+C:\Mayk\Atividade poo Tales\Segunda Avaliação POO\Segunda avaliação poo\bin\Debug\net10.0\Segunda avaliação poo.pdb
+C:\Mayk\Atividade poo Tales\Segunda Avaliação POO\Segunda avaliação poo\obj\Debug\net10.0\Segunda avaliação poo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Mayk\Atividade poo Tales\Segunda Avaliação POO\Segunda avaliação poo\obj\Debug\net10.0\Segunda avaliação poo.AssemblyInfoInputs.cache
+C:\Mayk\Atividade poo Tales\Segunda Avaliação POO\Segunda avaliação poo\obj\Debug\net10.0\Segunda avaliação poo.AssemblyInfo.cs
+C:\Mayk\Atividade poo Tales\Segunda Avaliação POO\Segunda avaliação poo\obj\Debug\net10.0\Segunda avaliação poo.csproj.CoreCompileInputs.cache
+C:\Mayk\Atividade poo Tales\Segunda Avaliação POO\Segunda avaliação poo\obj\Debug\net10.0\Segunda avaliação poo.sourcelink.json
+C:\Mayk\Atividade poo Tales\Segunda Avaliação POO\Segunda avaliação poo\obj\Debug\net10.0\Segunda avaliação poo.dll
+C:\Mayk\Atividade poo Tales\Segunda Avaliação POO\Segunda avaliação poo\obj\Debug\net10.0\refint\Segunda avaliação poo.dll
+C:\Mayk\Atividade poo Tales\Segunda Avaliação POO\Segunda avaliação poo\obj\Debug\net10.0\Segunda avaliação poo.pdb
+C:\Mayk\Atividade poo Tales\Segunda Avaliação POO\Segunda avaliação poo\obj\Debug\net10.0\Segunda avaliação poo.genruntimeconfig.cache
+C:\Mayk\Atividade poo Tales\Segunda Avaliação POO\Segunda avaliação poo\obj\Debug\net10.0\ref\Segunda avaliação poo.dll
