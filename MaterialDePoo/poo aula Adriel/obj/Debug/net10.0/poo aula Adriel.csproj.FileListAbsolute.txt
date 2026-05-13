@@ -1,0 +1,15 @@
+C:\Mayk\MaterialDePoo\poo aula Adriel\bin\Debug\net10.0\poo aula Adriel.exe
+C:\Mayk\MaterialDePoo\poo aula Adriel\bin\Debug\net10.0\poo aula Adriel.deps.json
+C:\Mayk\MaterialDePoo\poo aula Adriel\bin\Debug\net10.0\poo aula Adriel.runtimeconfig.json
+C:\Mayk\MaterialDePoo\poo aula Adriel\bin\Debug\net10.0\poo aula Adriel.dll
+C:\Mayk\MaterialDePoo\poo aula Adriel\bin\Debug\net10.0\poo aula Adriel.pdb
+C:\Mayk\MaterialDePoo\poo aula Adriel\obj\Debug\net10.0\poo aula Adriel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Mayk\MaterialDePoo\poo aula Adriel\obj\Debug\net10.0\poo aula Adriel.AssemblyInfoInputs.cache
+C:\Mayk\MaterialDePoo\poo aula Adriel\obj\Debug\net10.0\poo aula Adriel.AssemblyInfo.cs
+C:\Mayk\MaterialDePoo\poo aula Adriel\obj\Debug\net10.0\poo aula Adriel.csproj.CoreCompileInputs.cache
+C:\Mayk\MaterialDePoo\poo aula Adriel\obj\Debug\net10.0\poo aula Adriel.sourcelink.json
+C:\Mayk\MaterialDePoo\poo aula Adriel\obj\Debug\net10.0\poo aula Adriel.dll
+C:\Mayk\MaterialDePoo\poo aula Adriel\obj\Debug\net10.0\refint\poo aula Adriel.dll
+C:\Mayk\MaterialDePoo\poo aula Adriel\obj\Debug\net10.0\poo aula Adriel.pdb
+C:\Mayk\MaterialDePoo\poo aula Adriel\obj\Debug\net10.0\poo aula Adriel.genruntimeconfig.cache
+C:\Mayk\MaterialDePoo\poo aula Adriel\obj\Debug\net10.0\ref\poo aula Adriel.dll
