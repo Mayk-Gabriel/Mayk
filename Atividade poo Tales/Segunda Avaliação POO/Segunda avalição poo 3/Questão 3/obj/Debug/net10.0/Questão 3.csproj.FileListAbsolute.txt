@@ -1,0 +1,15 @@
+C:\Mayk\Atividade poo Tales\Segunda Avaliação POO\Segunda avalição poo 3\Questão 3\bin\Debug\net10.0\Questão 3.exe
+C:\Mayk\Atividade poo Tales\Segunda Avaliação POO\Segunda avalição poo 3\Questão 3\bin\Debug\net10.0\Questão 3.deps.json
+C:\Mayk\Atividade poo Tales\Segunda Avaliação POO\Segunda avalição poo 3\Questão 3\bin\Debug\net10.0\Questão 3.runtimeconfig.json
+C:\Mayk\Atividade poo Tales\Segunda Avaliação POO\Segunda avalição poo 3\Questão 3\bin\Debug\net10.0\Questão 3.dll
+C:\Mayk\Atividade poo Tales\Segunda Avaliação POO\Segunda avalição poo 3\Questão 3\bin\Debug\net10.0\Questão 3.pdb
+C:\Mayk\Atividade poo Tales\Segunda Avaliação POO\Segunda avalição poo 3\Questão 3\obj\Debug\net10.0\Questão 3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Mayk\Atividade poo Tales\Segunda Avaliação POO\Segunda avalição poo 3\Questão 3\obj\Debug\net10.0\Questão 3.AssemblyInfoInputs.cache
+C:\Mayk\Atividade poo Tales\Segunda Avaliação POO\Segunda avalição poo 3\Questão 3\obj\Debug\net10.0\Questão 3.AssemblyInfo.cs
+C:\Mayk\Atividade poo Tales\Segunda Avaliação POO\Segunda avalição poo 3\Questão 3\obj\Debug\net10.0\Questão 3.csproj.CoreCompileInputs.cache
+C:\Mayk\Atividade poo Tales\Segunda Avaliação POO\Segunda avalição poo 3\Questão 3\obj\Debug\net10.0\Questão 3.sourcelink.json
+C:\Mayk\Atividade poo Tales\Segunda Avaliação POO\Segunda avalição poo 3\Questão 3\obj\Debug\net10.0\Questão 3.dll
+C:\Mayk\Atividade poo Tales\Segunda Avaliação POO\Segunda avalição poo 3\Questão 3\obj\Debug\net10.0\refint\Questão 3.dll
+C:\Mayk\Atividade poo Tales\Segunda Avaliação POO\Segunda avalição poo 3\Questão 3\obj\Debug\net10.0\Questão 3.pdb
+C:\Mayk\Atividade poo Tales\Segunda Avaliação POO\Segunda avalição poo 3\Questão 3\obj\Debug\net10.0\Questão 3.genruntimeconfig.cache
+C:\Mayk\Atividade poo Tales\Segunda Avaliação POO\Segunda avalição poo 3\Questão 3\obj\Debug\net10.0\ref\Questão 3.dll
